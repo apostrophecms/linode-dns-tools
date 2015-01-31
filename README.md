@@ -11,7 +11,7 @@ You must provide your linode API key, which you can generate via your linode pro
 ## Installation
 
 ```
-npm install linode-dns-tools
+npm install -g linode-dns-tools
 ```
 
 # The tools

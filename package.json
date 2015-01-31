@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punkave/linode-import-zone-file"
+    "url": "https://github.com/punkave/linode-tools"
   },
   "keywords": [
     "dns",

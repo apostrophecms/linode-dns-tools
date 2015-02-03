@@ -52,6 +52,16 @@ linode-change-ip --old=1.1.1.1 --new=2.2.2.2 --domain=mycompany.com
 
 Runs quietly if nothing is wrong. Use `--verbose` for detailed output.
 
+## linode-add-record
+
+A simple utility to add a new record.
+
+```
+linode-add-record --domain=foo.com --type=a --name=bar --target=1.2.3.4
+```
+
+Currently does not support record types that require more than just a name and target. Pull requests always welcome.
+
 ## About P'unk Avenue and Apostrophe
 
 `linode-dns-tools` was created at [P'unk Avenue](http://punkave.com) to support our work on Apostrophe, an open-source content management system built on node.js. If you like `linode-dns-tools` you should definitely [check out apostrophenow.org](http://apostrophenow.org). Also be sure to visit us on [github](http://github.com/punkave).

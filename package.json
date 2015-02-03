@@ -31,6 +31,7 @@
   },
   "bin": {
     "linode-import-zone-file": "./bin/linode-import-zone-file",
-    "linode-change-ip": "./bin/linode-change-ip"
+    "linode-change-ip": "./bin/linode-change-ip",
+    "linode-add-record": "./bin/linode-add-record"
   }
 }

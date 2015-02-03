@@ -1,6 +1,6 @@
 {
   "name": "linode-dns-tools",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Tools to update your Linode DNS entries via the Linode API.",
   "main": "app.js",
   "scripts": {

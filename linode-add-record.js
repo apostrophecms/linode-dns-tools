@@ -45,6 +45,7 @@ return async.series({
     return api('domain.resource.create', {
       DomainID: domain.DOMAINID,
       Type: argv.type.toUpperCase(),
+      Name: argv.name.trim(),
       Target: argv.target.trim()
     }, callback);
   }
